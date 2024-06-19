@@ -19,4 +19,4 @@ def article(article_id):
     return render_template('article.html', article=article)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=8000)
